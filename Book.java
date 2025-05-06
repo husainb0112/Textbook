@@ -3,7 +3,8 @@ public class Book {
     private double price; 
 
     public Book(String bookTitle, double bookPrice) {
-
+        title = bookTitle;
+        price = bookPrice; 
     }
 
     public String getTitle() {
